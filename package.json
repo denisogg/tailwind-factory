@@ -1,0 +1,29 @@
+{
+  "name": "lps",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+"scripts": {
+  "build:demo": "postcss projects/demo/assets/css/input.css -o projects/demo/assets/css/style.css",
+  "watch:demo": "nodemon --watch projects/demo --ext html,css,php --exec \"npm run build:demo\""
+  
+   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.4.20",
+    "lite-server": "^2.6.1",
+    "postcss": "^8.4.47",
+    "postcss-cli": "^11.0.0",
+    "postcss-custom-media": "^11.0.3",
+    "postcss-import": "^16.1.0",
+    "postcss-mixins": "^11.0.3",
+    "postcss-nested": "^6.2.0",
+    "postcss-simple-vars": "^7.0.1",
+    "tailwindcss": "^3.4.14"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}

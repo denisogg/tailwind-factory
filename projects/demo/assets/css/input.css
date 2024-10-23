@@ -1,0 +1,6 @@
+/* Import Tailwind */
+@import './tailwind.css';
+
+/* Import custom CSS files */
+@import './custom/custom1.css';
+
